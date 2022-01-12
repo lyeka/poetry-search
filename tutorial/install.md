@@ -1,4 +1,4 @@
-## install 
+## iinstall 
 
 ### Elasticsearch & Kibana
 
@@ -18,11 +18,15 @@ docker run --name kib01-test --net elastic -p 127.0.0.1:5601:5601 -e "ELASTICSEA
 
 ```
 
+
+
+**查看es版本**
+
+`curl -XGET "http://localhost:9200/"`
+
+**访问kibana**
+
 此时可以通过 http://localhost:5601/ 访问 kibana dashboard
-
-
-
-
 
 
 
@@ -32,9 +36,9 @@ TODO
 
 
 
+#### linux
 
-
-
+TODO
 
 
 
